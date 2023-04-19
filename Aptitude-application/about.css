@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header .heading {
+  padding: 0.5rem;
+  color: #666;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+header .navbar ul li a:hover {
+  background-color: navy;
+}
+
+.about {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.7rem 3rem;
+  background: blue;
+  color: #fff;
+  margin-top: 1rem;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.btn:hover {
+  background: navy;
+}
+
+.about .image {
+  flex: 1 1 40rem;
+}
+
+.about .image img {
+  width: 100%;
+}
+
+.about .content {
+  flex: 1 1 40rem;
+}
+
+.about .content h1 {
+  font-size: 2rem;
+  color: #444;
+  margin: 1rem;
+}
+
+.about .content p {
+  font-size: 1.2rem;
+  color: #666;
+  padding: 2rem 0;
+  margin: 1rem;
+}
+
+.contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact form {
+  flex: 1 1 40rem;
+  padding: 2rem;
+  margin: 1rem;
+  margin-top: 4rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.contact .content {
+  flex: 1 1 40rem;
+  padding: 3rem 1rem;
+}
+
+.contact form .box {
+  width: 100%;
+  color: #333;
+  height: 4rem;
+  font-size: 1.5rem;
+  border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
+  text-transform: none;
+  margin: 1rem 0;
+}
+
+.contact form .box::placeholder {
+  text-transform: capitalize;
+}
+
+.contact form .box:focus {
+  border-color: var(--orange);
+}
+
+.contact form .message {
+  height: 15rem;
+  resize: none;
+}
+
+.contact .content h3 {
+  font-size: 2.4rem;
+  color: #444;
+}
+
+.contact .content p {
+  font-size: 1.5rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
+.contact .content .icons {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 0.7rem 0;
+}
+
+.contact .content .icons i {
+  padding-right: 0.5rem;
+  color: blue;
+}
+
+.student .login {
+  width: 360px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.student .login h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.student .login form {
+  font-size: 20px;
+}
+
+.student .login form .form-group {
+  margin-bottom: 12px;
+}
+
+.student form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.studlog .image {
+  flex: 1 1 40rem;
+}
+
+.studlog img {
+  width: 60%;
+  float: left;
+}
+
+
+.studlog .content h1{
+  font-size: 2rem;
+  color: #444;
+  margin: 11rem;
+  margin-left: 2rem;
+  float: left;
+}
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}

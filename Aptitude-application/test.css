@@ -1,0 +1,32 @@
+.text-blocks {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .text-block {
+    border: 1px solid navy;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    color: navy;
+    font-size: 1.2rem;
+  }
+  
+  body h1{
+    color: navy;
+  }
+  .text-block:hover {
+    background-color:white;
+  }
+  .animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+    
